@@ -2,7 +2,7 @@
 A Streamlit-based web application for AI-powered news article analysis. Users can input up to three news article URLs, which are processed using LangChain's RAG pipeline with Hugging Face's all-MiniLM-L6-v2 embeddings and Google's Gemini 1.5 Flash LLM. The app extracts content, creates a FAISS vector store, and answers user queries .
 RockyBot: News Research Tool
 RockyBot is a Streamlit-based web application that leverages LangChain's Retrieval-Augmented Generation (RAG) pipeline to analyze news articles. Users can input up to three news article URLs, which are processed to create a searchable knowledge base using Hugging Face's all-MiniLM-L6-v2 embeddings and a FAISS vector store. Queries are answered with Google's Gemini 1.5 Flash LLM, providing concise responses with cited sources. The app features a professional UI with custom styling, progress spinners, and error handling, making it ideal for journalists, researchers, and analysts.
-Features
+//Features
 
 URL Processing: Load and extract content from up to three news article URLs using UnstructuredURLLoader.
 RAG Pipeline: Splits articles into chunks, generates embeddings with sentence-transformers/all-MiniLM-L6-v2, and stores them in a FAISS vector store.

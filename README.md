@@ -7,9 +7,13 @@ RockyBot is a Streamlit-based web application that leverages LangChain's Retriev
 ## Features
 
 URL Processing: Load and extract content from up to three news article URLs using UnstructuredURLLoader.
+
 RAG Pipeline: Splits articles into chunks, generates embeddings with sentence-transformers/all-MiniLM-L6-v2, and stores them in a FAISS vector store.
+
 AI-Powered Q&A: Answers user queries with Google's Gemini 1.5 Flash LLM, including source citations.
+
 Professional UI: Streamlit interface with custom CSS, progress spinners, and user-friendly error messages.
+
 Local Embeddings: Uses free, open-source Hugging Face embeddings to avoid API costs.
 
 ## Installation

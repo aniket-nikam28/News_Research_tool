@@ -12,11 +12,11 @@ AI-Powered Q&A: Answers user queries with Google's Gemini 1.5 Flash LLM, includi
 Professional UI: Streamlit interface with custom CSS, progress spinners, and user-friendly error messages.
 Local Embeddings: Uses free, open-source Hugging Face embeddings to avoid API costs.
 
-/Installation
+## Installation
 
 Clone the Repository:
-git clone https://github.com/your-username/rockybot-news-research-tool.git
-cd rockybot-news-research-tool
+git clone https://github.com/your-username/News_Research_tool.git
+cd News_Research_tool.git
 
 
 Set Up a Virtual Environment:
@@ -37,10 +37,10 @@ Create a .env file in the project root:GOOGLE_API_KEY=your-google-api-key
 
 
 
-Usage
+## Usage
 
 Run the App:
-streamlit run rag_with_gemini.py
+streamlit run main1.py
 
 
 Interact:
@@ -52,25 +52,11 @@ Ask a question (e.g., "What are the key events in these articles?") and submit t
 
 
 
-Project Structure
 
-rag_with_gemini.py: Main Streamlit app with the RAG pipeline.
-faiss_store_huggingface.pkl: Generated FAISS index for the vector store.
-.env: Stores the Google API key (not tracked in Git).
 
-Requirements
-
-Python 3.8+
-Google Cloud account with Gemini API enabled
-Minimum 4GB RAM (8GB+ recommended for large articles)
-
-Limitations
+## Limitations
 
 UnstructuredURLLoader may struggle with paywalled or JavaScript-heavy sites.
 Gemini API free tier has rate limits; monitor usage at console.cloud.google.com.
 Local embeddings require sufficient CPU resources.
 
-Contributing
-Contributions are welcome! Please submit a pull request or open an issue for bugs, features, or improvements.
-License
-This project is licensed under the MIT License.
